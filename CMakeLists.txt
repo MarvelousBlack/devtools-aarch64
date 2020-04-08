@@ -25,4 +25,5 @@ install(DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/cmds/"
 install(FILES
   "pacman-archlinuxcnarm.conf"
   "pacman-alarm.conf"
+  "makepkg-aarch64.conf"
   DESTINATION "${CMAKE_INSTALL_DATAROOTDIR}/devtools/")
